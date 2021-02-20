@@ -1,0 +1,36 @@
+.form {
+    width: 750px;
+    /* height: 120px; */
+    background-color: rgb(234, 232, 252);
+    background-size: 100% 1.2em;
+    /* position: absolute; */
+}
+
+.form > input {
+    width: 80%;
+    z-index: 100;
+} 
+.input:hover {
+    color: yellow;
+} 
+
+.form > button {
+    margin-left: 30px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
+a {
+    width: 85px;
+    border-style: none;
+    border-radius: 0%;
+}
+
+.form > button:focus {
+    outline: 0;
+}
+
+.center {
+    z-index: 10;
+}
